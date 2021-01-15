@@ -1,0 +1,173 @@
+head
+{
+
+}
+
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+h2
+{
+	font-family: Helvetica Neue;
+	color: white;
+	font-size: 10vw;
+}
+
+h3
+{
+	font-family: Helvetica Neue;
+	color: white;
+	font-size: 3vw;
+}
+
+h4
+{
+	font-family: Helvetica Neue;
+	color: black;
+	font-size: 4vw;
+	text-align: center;
+	align-items: center; 
+	text-decoration: none;
+}
+
+.bandeau
+{
+	display: block;
+	text-align: center;
+	vertical-align:middle;
+	height: 13vw;
+	border: 1px #B88F67 solid;
+	background-color: #B88F67;
+}
+
+.menu
+{
+	display: flex; 
+	justify-content: space-between;
+	height: 15vw;
+	width: 100%;
+	/*border: 1px black solid;*/
+}
+
+.logo
+{
+	width: 15vw;
+	/*border: 1px black solid;*/
+	background:url(img/logo.png);
+	background-size: auto 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.contbouton
+{
+	display: flex;
+	justify-content: space-around;	
+	width: 30vw;
+	/*border: 1px black solid;*/
+}
+
+
+
+.blog
+{
+
+}
+
+
+.panier
+{
+
+}
+
+
+
+
+
+.presentation
+{
+	padding-top: 1vw;
+	text-align: center;
+	height: 80vw;
+	/*border: 1px black solid;*/
+	background:url(img/back.jpg);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.decouvrir button
+{
+	margin-top: 10vw;
+	display: block;
+	text-align: center;
+	font-size: 3vw;
+	font-family: Helvetica Neue;
+	outline: 0;
+	/*background-color: #B88F67;*/
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	border: white solid 3px;
+	border-radius: 2px;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.decouvrir button:hover
+{
+	cursor: pointer;
+}
+
+
+#grinder
+{
+	margin-top: 10vw;
+	display: flex;
+	justify-content: left;
+
+}
+
+.textgrinder
+{
+	margin-left: 4vw;
+	margin-right: 3vw;
+	margin-bottom: 10vw;
+}
+
+.titregrinder
+{
+	font-family: Helvetica Neue;
+	color: black;
+	font-size: 4vw;
+}
+
+.description
+{
+	margin-top: 6vw;
+	font-family: Helvetica Neue;
+	color: black;
+	font-size: 2vw;
+}
+
+.codesecret
+{
+	border-top: 1px solid black;
+	padding-top: 4vw;
+	margin-top: 10vw;
+}
+
+.footer
+{
+	height:30vw;
+	background:url(img/footer.png);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;	
+}

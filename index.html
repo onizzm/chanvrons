@@ -1,0 +1,75 @@
+<link rel="stylesheet" href="chanvrons.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+
+
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+
+</script>
+
+<head>
+
+	<div class="bandeau">
+		<h3> Livraison gratuite pour toute commande avant 16h20 </h3>
+	</div>
+
+	<div class="menu">
+		<div class="logo">
+
+		</div>
+
+		<div class="contbouton">
+			<div class="blog"><a style="text-decoration: none;" href="https://www.instagram.com/chanvronslemonde/"> <h4> Blog </h4> </a> </div>
+
+			<div class="panier"> <h4> Panier </h4> </div>
+			
+		</div>
+	</div>
+
+	<div class="presentation">
+
+		<h2> Une plante. <br> 50 000 possibilités. </h2> 
+
+		<h3> Découvrez le grinder en plastique de chanvres </h3>
+
+		<div class="decouvrir">
+			<button class="js-scrollTo" href="#grinder"> JE DECOUVRE </button>
+		</div>
+
+	</div>
+
+	<div id="grinder">
+		<img style="height: 30vw; margin-left: 5vw; margin-top: 5vw" src="img/grinder.jpg">
+		<div class="textgrinder">
+				<p class="titregrinder"> Grinder en plastique de chanvre <br> ChanvronsLeMonde® </p>
+
+				<p class="description">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+
+				<p class="codesecret">
+					ꖎᒷ ℸ ̣ ⍑ᓵ ꖎ╎ʖᒷ∷ᒷ ꖎ'ᒷᓭ!¡∷╎ℸ ̣
+				</p>
+		</div>
+	</div>
+
+	<div class="footer">
+
+	</div>
+
+
+</head>
+
