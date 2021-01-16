@@ -35,16 +35,22 @@ h4
 
 .bandeau
 {
+	top: 0px;
+	left: 0px;
 	display: block;
+	position: fixed;
 	text-align: center;
 	vertical-align:middle;
 	height: 13vw;
-	border: 1px #B88F67 solid;
+	width: 100%;
+/*	border: 1px #B88F67 solid;*/
 	background-color: #B88F67;
+/*	margin-bottom: 13vw;*/
 }
 
 .menu
 {
+	margin-top: 13vw;
 	display: flex; 
 	justify-content: space-between;
 	height: 15vw;
@@ -77,15 +83,10 @@ h4
 
 }
 
-
 .panier
 {
 
 }
-
-
-
-
 
 .presentation
 {
@@ -128,7 +129,7 @@ h4
 
 #grinder
 {
-	margin-top: 10vw;
+	padding-top: 12vw;
 	display: flex;
 	justify-content: left;
 
@@ -136,9 +137,9 @@ h4
 
 .textgrinder
 {
-	margin-left: 4vw;
-	margin-right: 3vw;
-	margin-bottom: 10vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 1vw;
 }
 
 .titregrinder
@@ -153,7 +154,7 @@ h4
 	margin-top: 6vw;
 	font-family: Helvetica Neue;
 	color: black;
-	font-size: 2vw;
+	font-size: 2,5vw;
 }
 
 .codesecret
@@ -161,6 +162,30 @@ h4
 	border-top: 1px solid black;
 	padding-top: 4vw;
 	margin-top: 10vw;
+}
+
+#pageavis
+{
+	height: 60vw;
+/*	border: 1px black solid;*/
+
+}
+
+.avistitre
+{
+	font-family: Helvetica Neue;
+	font-size: 6vw;
+	text-align: center;
+	height: 10vw;
+	border-bottom: 1px black solid;
+}
+
+.avis
+{
+	font-family: Helvetica Neue;
+	font-size: 3vw;
+	text-align: left;
+	margin-left: 4vw;
 }
 
 .footer
